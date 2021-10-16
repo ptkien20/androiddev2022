@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#200000FF"
+    android:orientation="vertical"
+    tools:context=".ForecastFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:text="Mon" />
+
+
+            <ImageView
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:src="@drawable/sunny" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Partly Cloudy\n24C-31C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Tue" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/rain" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Showers\n24C-30C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Wed" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/rain" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Rain\n22C-23C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Thu" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/rain" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Scattered Showers\n22C-27C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Fri" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/sunny" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Mostly Cloudy\n22C-30C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Sat" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/sunny" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Partly Cloudy\n24C-31C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Sun" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/storm" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Thunderstorms\n25C-28C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Mon" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/storm" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Scattered Thunderstorms\n24C-27C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Tue" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/rain" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Showers\n24C-26C" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Wed" />
+
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/storm" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Scattered Thunderstorms\n23C-27C" />
+    </LinearLayout>
+</ScrollView>
