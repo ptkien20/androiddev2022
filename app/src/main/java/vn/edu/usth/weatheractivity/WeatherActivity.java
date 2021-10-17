@@ -6,10 +6,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class WeatherActivity extends AppCompatActivity {
 
@@ -103,5 +106,34 @@ public class WeatherActivity extends AppCompatActivity {
             return titles[page]
         }
     }
+        @Override
+        public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
 
+        @Override
+            public boolean onOptionsItemSelected(MenuItem MenuItem item;
+            item) {
+                switch (item.getItemId()) {
+                    int refresh;
+                    case refresh:
+                    {
+                        Toast.makeText(getApplicationContext(), "Refreshing", Toast.LENGTH_LONG).show();
+                        return true;
+                    }
+
+                    char action_settings;
+                    case action_settings:
+                    {
+                        Intent intent = new Intent(this, PrefActivity.class);
+                        startActivity(intent);
+                        return true;
+                    }
+                    default:
+                        return super.onOptionsItemSelected(item);
+                }
+            }
 }
+
+    private class PrefActivity {
+    }
