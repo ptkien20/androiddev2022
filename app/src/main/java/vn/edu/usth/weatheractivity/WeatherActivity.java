@@ -75,7 +75,7 @@ public class WeatherActivity extends AppCompatActivity {
 
     public class HomeFragmentPaperAdapter extends FragmentPaperAdapter {
         private final int PAGE_COUNT = 3;
-        private String titles[] = new String[]{"Hanoi","Paris","Toulouse"};
+        private String titles[] = new String[]{"Hanoi,VietNam","Paris,France","Toulouse,France"};
         public HomeFragmentPaperAdapter(FragmentManager fm) {
             super(fm);
         }
