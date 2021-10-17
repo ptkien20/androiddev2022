@@ -8,10 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class WeatherForcastFragment extends Fragment{
-    public class WeatherForcastFragment () {
+    private ViewGroup fragmentweatherforecast;
+
+    private class WeatherForcastFragment () {
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-        return inflater.inflate(R.layout,fragmentweatherforecast, container, false);
+        final View inflate = inflater.inflate(R.layout, fragmentweatherforecast, container, false);
+        return inflate;
     }
 }

@@ -1,9 +1,17 @@
 package vn.edu.usth.weatheractivity;
 
-public class WeatherFragment {
+import android.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+class WeatherFragment {
+    private void setArguments(Bundle args) {
+    }
 }
 
-        import android.os.Bundle;
+import android.os.Bundle;
 
         import androidx.fragment.app.Fragment;
 
@@ -13,7 +21,7 @@ public class WeatherFragment {
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link WeatherFragment#newInstance} factory method to
+ * Use the  factory method to
  * create an instance of this fragment.
  */
 public class WeatherFragment extends Fragment {

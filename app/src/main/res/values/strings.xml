@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WeatherActivity</string>
     <string name="mon">Lundi</string>
+    <string name="settings">setting</string>
 </resources>
